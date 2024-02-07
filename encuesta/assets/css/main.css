@@ -206,7 +206,7 @@ section {
   right: 15px;
   bottom: -15px;
   z-index: 99999;
-  background: #C0D22F;
+  background: #005CA9;
   width: 44px;
   height: 44px;
   border-radius: 50px;
@@ -215,7 +215,7 @@ section {
 
 .scroll-top i {
   font-size: 24px;
-  color: #005758;
+  color: #fff;
   line-height: 0;
 }
 
@@ -1224,7 +1224,6 @@ section {
   text-align: center;
   padding: 0 40px;
   font-weight: 700;
-  text-transform: uppercase;
 }
 .title-gracias p{
   color: #000;
@@ -1257,6 +1256,30 @@ section {
   background: #fff;
   border: 2px solid #fff;
   color: #005CA9;
+}
+
+.title-gracias .social-links{
+  margin-bottom: 0px;
+}
+
+.title-gracias .social-links a {
+  font-size: 30px;
+  display: inline-block;
+  color: #fff;
+  line-height: 1;
+  padding: 9px 0;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  transition: 0.3s;
+  background: #005CA9;
+  border-radius: 50%;
+}
+
+.title-gracias .social-links a:hover {
+  color: #005CA9;
+  background: #fff;
+  text-decoration: none;
 }
 
 @media (max-width: 991px) {
