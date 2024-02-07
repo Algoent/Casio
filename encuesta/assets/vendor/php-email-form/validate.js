@@ -115,7 +115,7 @@ jQuery(document).ready(function($) {
           console.log("exito");
           this_form.find('.loading').slideUp();
           this_form.find('.sent-message').slideDown().html(data.message);
-          setTimeout(function(){window.location.href="encuesta/index.html"} , 1000); 
+          setTimeout(function(){window.location.href="gracias.html"} , 1000); 
 
         }
         else if(data.status == "error"){
